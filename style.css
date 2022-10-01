@@ -1,0 +1,19 @@
+#grid {
+    width: 440px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#grid .tile {
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: black;
+}
+
+.toggled {
+    background-color: gray !important;
+}
